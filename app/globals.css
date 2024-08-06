@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .btn {
+    @apply bg-slate-500 text-black border-2;
+  }
+}
